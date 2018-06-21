@@ -1,0 +1,49 @@
+baseurl = "https://HappyHellen.com/"
+languageCode = "en-us"
+title = "Hellen | 曾海銮"
+theme = "hugo-lithium"
+googleAnalytics = ""
+disqusShortname = "HappyHellen"
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "主页"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "博客"
+    url = "/post"
+    weight = 2
+[[menu.main]]
+    name = "关于"
+    url = "/about"
+    weight = 3
+
+[params]
+    description = "Personal website of Hellen"
+    disqusURL = "https://www.HappyHellen.com/"
+    dateFormat = "2018/05/24"
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdn.bootcss.com"
+    MathJaxVersion = "2.7.1"
+
+    [params.logo]
+    url = "me.jpg"
+    width = 50
+    height = 50
+    alt = "Logo"
+    
+    [params.author]
+    post = "Hellen"
+    
+    
+

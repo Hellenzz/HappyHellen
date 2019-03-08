@@ -89,7 +89,7 @@ tags:
 
     找到这三个亚型中分别特有（和另外两组有显著性差异）的[临床指标](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4780757/table/T1/?report=objectonly)，分别29个，3个，11个。
 
-    S1：年轻，典型T2D特征，高BMI和血糖，血常规低。低板，血凝差。高血白蛋白和低肌酐。生功能好但是GFR低。高血CO2和低呼吸次数。较少使用CCB，ACEI/ARB，DPP4，MET。
+    S1：年轻，典型T2D特征，高BMI和血糖，血常规低。低板，血凝差。高血白蛋白和低肌酐。肾功能好但是GFR低。高血CO2和低呼吸次数。较少使用CCB，ACEI/ARB，DPP4，MET。
 
     S2：体重在三组中最低。
     
@@ -97,13 +97,13 @@ tags:
 
 3. T2D不同亚型相关的的并发症
 
-   用CCS将7000个ICD-9-CM编码进行归类，单水平281类和多水平18个大类。校正性别、年龄、种族后，发现[不同亚型的不同并发症](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4780757/table/T2/?report=objectonly)及OR值。
+    用CCS将7000个ICD-9-CM编码进行归类，单水平281类和多水平18个大类。校正性别、年龄、种族后，发现[不同亚型的不同并发症](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4780757/table/T2/?report=objectonly)及OR值。
 
-   S1：其他上感、感染免疫、糖尿病和并发症、其他皮肤病、视力障碍
+    S1：其他上感、感染免疫、糖尿病和并发症、其他皮肤病、视力障碍
 
-   S2：气管癌、结核、冠心病、循环疾病
+    S2：气管癌、结核、冠心病、循环疾病
 
-   S3：HIV、外伤护理、动脉栓塞、高血压、冠心病、过敏、贫血、精神疾病
+    S3：HIV、外伤护理、动脉栓塞、高血压、冠心病、过敏、贫血、精神疾病
 
 4. 不同亚型的基因变异（独立于临床数据）
 
@@ -177,8 +177,8 @@ This new substratification might eventually help to tailor and target early trea
     ANDIU的k-means聚类结果类似ANDIS。
     在DIREVA中，2607位具有较长糖尿病病程的患者和878位新发糖尿病患者的结果类似。
 
-    ![F1.A.ANDIS传统分类；B.ANDIS的k-means；C.SDR的k-means；D.ANDIU的k-means；E.DIREVA新诊断的k-means；F.DIREVA较长病程的k-means](T2D-Subgroups-F1.jpg) 
-    ![F2.五组特征](T2D-Subgroups-F2.jpg)
+    ![F1](http://47.96.102.241/images/2018-06-21-T2D-Subgroups/F1.png) 
+    ![F2](http://47.96.102.241/images/2018-06-21-T2D-Subgroups/F2.png)
 
 - 在ANDIS队列中比较疾病进展、治疗和并发症发生。
 
@@ -186,13 +186,13 @@ This new substratification might eventually help to tailor and target early trea
 
     胰岛素用药在G1组中42%，G2组中29%，G3、4、5中都低于4%。需要胰岛素时间G1<G2<G3、4、5。二甲双胍应用在G2组最多，G1最少，G3也少（实则是最需要的）。G2最快需要二线口服降糖药和最长时间达到控制目标。
 
-    ![F3.病程中的HbA1c](T2D-Subgroups-F3.jpg)
-    ![F4.A.需要用胰岛素时间；B.需要二甲双胍时间；C.需要二线口服降糖药时间；D.达到治疗目标时间](T2D-Subgroups-F4)
+    ![F3](http://47.96.102.241/images/2018-06-21-T2D-Subgroups/F3.png)
+    ![F4](http://47.96.102.241/images/2018-06-21-T2D-Subgroups/F4.png)
 
     ANDIS中G3最可能发生慢性肾脏病和糖肾。在SDR和DIREVA中得到验证。
     ANDIS中G2有早期糖网征象。在ANDIU和SDR中验证。
 
-    ![F5.A.ANDIS慢性肾脏病；B.ANDIS大量蛋白尿；C.SDR终末期肾病；D.SDR糖网；E.ANDIS冠脉病](T2D-Subgroups-F5.jpg)
+    ![F5](http://47.96.102.241/images/2018-06-21-T2D-Subgroups/F5.png)
 
     以MDV-CAV中的非糖尿病人群为对照，没有哪个基因是与所有组都有差异的。ANDIS中每个组与之比较得出差异基因。
 
@@ -204,3 +204,8 @@ SAID和T1D、LADA重叠，SIDD和SIRD是传统T2D中的新亚型，需要强化�
 新诊断和长病程结果一致，说明方法可靠且分组依据不是按病程长短。肝脏胰岛素抵抗是NAFLD的一个特征，因为TM6SF2基因的SNP（NAFLD相关）在SIRD组中相关，MOD中则不然。
 
 后续研究可以增加变量进行聚类，如生物标志物、基因型或基因危险得分。GWAS可以更加阐明各组差异。其他种族。更多自身抗体。并发症的其他危险因素也应纳入分析。
+
+**【说明】**
+[原文](http://47.96.102.241/papers/2018-06-21-T2D-Subgroups.pdf)和[附录](http://47.96.102.241/papers/2018-06-21-T2D-Subgroups-suppl.pdf)还含有大量信息
+
+在不同人群中验证、在男女性别中验证/比较、描述每组特征（实验室检查、并发症种类和严重程度、用药、血糖控制情况，随病程变化）、纵向分析每组并发症、随病程分类变量的变化、逻辑回归分析分类变量对每组特征并发症的OR值、与对照组比每组开始用药的cox模型分析、cox分析每组开始出现并发症（心肾眼脑）、每组SNPs关联分析等。
